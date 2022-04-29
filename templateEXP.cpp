@@ -4,7 +4,7 @@ using namespace std;
 template<typename T>
 void Max(T * arr, int size)
 {
-    T max = arr[0];
+    T max = arr[0]; 
     for(int i = 0; i < size; i++)
     {
         if(max < arr[i])
